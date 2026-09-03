@@ -11,11 +11,46 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=Work+Sans:wght@600&display=swap"
         rel="stylesheet">
+    <link rel="preload" as="image" href="./assets/hero-banner-bg.png">
+    <link rel="preload" as="image" href="./assets/hero-banner.png">
     <title>Unigin Squad</title>
 </head>
 
 <body>
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/logo.svg" width="110" height="53" alt="Unigin Squad Logo">
+            </a>
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                    </li>
 
+                    <li class="navbar-item">
+                        <a href="#about" class="navbar-link" data-nav-link>About</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#news" class="navbar-link" data-nav-link>News</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+                    </li>
+
+
+                </ul>
+            </nav>
+            <a href="#" class="btn">join our team</a>
+            <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+        </div>
+    </header>
 
 
 
